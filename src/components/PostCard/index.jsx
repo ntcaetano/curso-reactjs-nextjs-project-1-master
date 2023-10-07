@@ -1,8 +1,7 @@
-/* eslint-disable react/react-in-jsx-scope */
 import P from 'prop-types';
-import '.styles.css';
+import './styles.css';
 
-export const PostCard = ({ title, cover, body, id }) => (
+export const PostCard = ({ title, cover, body }) => (
   <div className="post">
     <img src={cover} alt={title} />
     <div className="post-content">
